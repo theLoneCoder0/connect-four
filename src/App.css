@@ -1,0 +1,44 @@
+#board {
+  width: 840px;
+  height: 700px;
+  padding: 20px 0;
+  margin: auto;
+  border-left: 50px solid blue;
+  border-right: 50px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 20px;
+  background: yellow;
+}
+
+.slot {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border-radius: 45%;
+  background: lightgray;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 100px;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+.slot img {
+  transition: 1s;
+}
+
+#playerDisplay {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 50px;
+}
